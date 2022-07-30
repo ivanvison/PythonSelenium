@@ -33,3 +33,19 @@ Playwright with Python for Web Automation Testing + Visual" from UDEMY. For this
 ## Section 7: Read & Write to Files
 - `reverse(list)`
 - writer.write()
+
+## Section 8: Exception Handling
+- `raise Exception("msg")`
+- `assert(contidion)` this should always be true
+- try, except, finally
+```python
+try:
+    # some piece of code
+
+except Exception as e:
+    # Do something, print error, etc
+    # print(f'Error from python: {e}')
+
+finally:
+    # Do something at the end wether this fails or not
+```
